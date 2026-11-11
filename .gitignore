@@ -1,0 +1,10 @@
+# Private benchmark artifacts must never enter this public repository.
+runs/
+benchmark-pilot/
+private/
+*.private.json
+*.raw.json
+TRANSFER_INDEX.json
+__pycache__/
+*.pyc
+.DS_Store

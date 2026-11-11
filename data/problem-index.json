@@ -1,0 +1,248 @@
+{
+  "schema": "research-explorer-problem-index/1",
+  "source": "Curated public ConfHub BM25 metadata sample",
+  "retrieved_utc": "2026-11-11T11:02:00.589963+00:00",
+  "status": "unreviewed lexical metadata, with at most 20-word abstract excerpts; not semantic or full-text verification",
+  "records": [
+    {
+      "id": "emnlp-2026-a85017848e6a2b53",
+      "title": "GRKV: Global Regression for Training-Free KV Cache Compression in Long-Context LLMs",
+      "source_url": "https://aclanthology.org/2026.emnlp-main.2199/",
+      "year": 2026,
+      "venue": "EMNLP",
+      "query_family": "kv_cache",
+      "abstract": "Large language models (LLMs) with extended context lengths rely on the key-value (KV) cache to support attention over prior tokens.",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "icml-2025-94cee3cf0e999a40",
+      "title": "RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression",
+      "source_url": "https://openreview.net/forum?id=RyOpooIxDF",
+      "year": 2025,
+      "venue": "ICML",
+      "query_family": "kv_cache",
+      "abstract": "Transformer-based Large Language Models rely critically on the KV cache to efficiently handle extended contexts during the decode phase. Yet,",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "emnlp-2026-dbd863ec602c8294",
+      "title": "NestedKV: Nested Memory Routing for Long-Context KV Cache Compression",
+      "source_url": "https://aclanthology.org/2026.emnlp-main.462/",
+      "year": 2026,
+      "venue": "EMNLP",
+      "query_family": "kv_cache",
+      "abstract": "Long-context language models are limited by the memory footprint of the key-value (KV) cache. Existing training-free KV compression methods usually",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2025-fbaa6beaf6a319b7",
+      "title": "ChunkKV: Semantic-Preserving KV Cache Compression for Efficient Long-Context LLM Inference",
+      "source_url": "https://openreview.net/forum?id=20JDhbJqn3",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "query_family": "kv_cache",
+      "abstract": "Large Language Models (LLMs) require significant GPU memory when processing long texts, with the key value (KV) cache consuming up",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "acl-2026-47adbc9a486847b0",
+      "title": "Question Tells You Where the Answer Is: Intention-aware Long-Context KV Cache Compression",
+      "source_url": "https://aclanthology.org/2026.acl-long.1250/",
+      "year": 2026,
+      "venue": "ACL",
+      "query_family": "kv_cache",
+      "abstract": "The increasing context window greatly extends the capabilities of large language models, but on the other hand, it incurs an",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "acl-2026-57ceb8b99ad0c3b7",
+      "title": "Anchoring the Cache: Mitigating Contextual Hallucination in KV-Compressed Long-Context Summarization",
+      "source_url": "https://aclanthology.org/2026.acl-long.1542/",
+      "year": 2026,
+      "venue": "ACL",
+      "query_family": "kv_cache",
+      "abstract": "Key-Value (KV) cache compression techniques have improved the efficiency of long-context summarization in Large Language Models (LLMs), but their",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "eccv-2026-7addaafed7639a12",
+      "title": "Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs",
+      "source_url": "https://eccv.ecva.net/virtual/2026/poster/5652",
+      "year": 2026,
+      "venue": "ECCV",
+      "query_family": "video",
+      "abstract": "Video Large Language Models (Video LLMs) incur high inference latency due to a large number of visual tokens provided to",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "aaai-2026-c0b84507e2d86998",
+      "title": "Sharp Eyes and Memory for VideoLLMs: Information-Aware Visual Token Pruning for Efficient and Reliable VideoLLM Reasoning",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37805",
+      "year": 2026,
+      "venue": "AAAI",
+      "query_family": "video",
+      "abstract": "Current Video Large Language Models (VideoLLMs) suffer from quadratic computational complexity and key-value cache scaling, due to their reliance on",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2026-2a5fa0710e55b012",
+      "title": "EventPrune: Cascaded Event-Assisted Token Pruning for Efficient First-Person Dynamic Spatial Reasoning",
+      "source_url": "https://openreview.net/forum?id=XyYCbuAP7m",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "query_family": "video",
+      "abstract": "First-person dynamic spatial reasoning requires models to track continuous motion and precise geometric structure, but the quadratic attention cost of",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "emnlp-2025-9c087d1c9f98287b",
+      "title": "Language-Guided Temporal Token Pruning for Efficient VideoLLM Processing",
+      "source_url": "https://aclanthology.org/2025.emnlp-main.451/",
+      "year": 2025,
+      "venue": "EMNLP",
+      "query_family": "video",
+      "abstract": "Vision Language Models (VLMs) struggle with long-form videos due to the quadratic complexity of attention mechanisms. We propose Language-Guided",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "acl-2026-525c0faf9d01d442",
+      "title": "Vista-LLM: Decoupled Query-Guided Visual Token Pruning for Efficient Long-Video Large Language Models",
+      "source_url": "https://aclanthology.org/2026.acl-long.601/",
+      "year": 2026,
+      "venue": "ACL",
+      "query_family": "video",
+      "abstract": "Long-video understanding is bottlenecked by the high cost of processing massive visual tokens. Current reduction strategies often rely on static",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "eccv-2026-6b56cb3bacea5eb1",
+      "title": "FastSTAR: Spatiotemporal Token Pruning for Efficient Autoregressive Video Synthesis",
+      "source_url": "https://eccv.ecva.net/virtual/2026/poster/5679",
+      "year": 2026,
+      "venue": "ECCV",
+      "query_family": "video",
+      "abstract": "Visual Autoregressive modeling (VAR) has emerged as a highly efficient alternative to diffusion-based frameworks, achieving comparable synthesis",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "icml-2024-c7f5a32567423ce9",
+      "title": "Turnstile $\\ell_p$ leverage score sampling with applications",
+      "source_url": "https://openreview.net/forum?id=l4ZjeDDnu9",
+      "year": 2024,
+      "venue": "ICML",
+      "query_family": "sketching",
+      "abstract": "The turnstile data stream model offers the most flexible framework where data can be manipulated dynamically, i.e., rows, columns, and",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "icml-2022-9809315eb7a53bf8",
+      "title": "Leverage Score Sampling for Tensor Product Matrices in Input Sparsity Time",
+      "source_url": "https://proceedings.mlr.press/v162/woodruff22a.html",
+      "year": 2022,
+      "venue": "ICML",
+      "query_family": "sketching",
+      "abstract": "We propose an input sparsity time sampling algorithm that can spectrally approximate the Gram matrix corresponding to the q-fold column-wise",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2024-fb4c97fae7e51ed6",
+      "title": "Euclidean distance compression via deep random features",
+      "source_url": "https://openreview.net/forum?id=Fanbig8DR9",
+      "year": 2024,
+      "venue": "NeurIPS",
+      "query_family": "sketching",
+      "abstract": "Motivated by the problem of compressing point sets into as few bits as possible while maintaining information about approximate distances",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2023-e725bf0418d2bcf0",
+      "title": "Fast Exact Leverage Score Sampling from Khatri-Rao Products with Applications to Tensor Decomposition",
+      "source_url": "https://openreview.net/forum?id=deaHiTb6Cu",
+      "year": 2023,
+      "venue": "NeurIPS",
+      "query_family": "sketching",
+      "abstract": "We present a data structure to randomly sample rows from the Khatri-Rao product of several matrices according to the exact",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "icml-2026-437257f667c5d5fd",
+      "title": "FlashSketch: Sketch-Kernel Co-Design for Fast Sparse Sketching on GPUs",
+      "source_url": "https://openreview.net/forum?id=cCwxV6rSXF",
+      "year": 2026,
+      "venue": "ICML",
+      "query_family": "sketching",
+      "abstract": "Sparse sketches such as the sparse Johnson–Lindenstrauss transform are a core primitive in randomized numerical linear algebra because they leverage",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2026-adac675bbc34d151",
+      "title": "Optimizing Computational-Statistical Runtime for Wasserstein Distance Estimation",
+      "source_url": "https://openreview.net/forum?id=5GGreyp28W",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "query_family": "sketching",
+      "abstract": "Squared Wasserstein distance is a frequently used tool to compare probability distributions. This distance is typically computed between empirical",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "iclr-2025-afaf3552fad1ddaa",
+      "title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+      "source_url": "https://openreview.net/forum?id=cFu7ze7xUm",
+      "year": 2025,
+      "venue": "ICLR",
+      "query_family": "retrieval",
+      "abstract": "Deploying long-context large language models (LLMs) is essential but poses significant computational and memory challenges. Caching all Key and Value",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "acl-2025-2d568b581761d1fd",
+      "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+      "source_url": "https://aclanthology.org/2025.acl-long.127/",
+      "year": 2025,
+      "venue": "ACL",
+      "query_family": "retrieval",
+      "abstract": "Encoder-only transformer models such as BERT offer a great performance-size tradeoff for retrieval and classification tasks with respect to larger",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "icml-2025-2859c966c1e7b3dd",
+      "title": "Efficient Length-Generalizable Attention via Causal Retrieval for Long-Context Language Modeling",
+      "source_url": "https://openreview.net/forum?id=6HVcoIbZoC",
+      "year": 2025,
+      "venue": "ICML",
+      "query_family": "retrieval",
+      "abstract": "Despite the success of Transformers, handling longer contexts remains challenging due to the limited length generalization and quadratic complexity of",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2026-8330d0c89104d428",
+      "title": "Knowing What is Missing: Efficient Conversational Memory via Explicit Evidence-Gap Tracking",
+      "source_url": "https://openreview.net/forum?id=o9MB6dPOa4",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "query_family": "retrieval",
+      "abstract": "Long-term conversational memory poses a fundamental system challenge for LLM agents: reasoning over all past interactions improves coverage but incurs",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "neurips-2025-96465804e62605a0",
+      "title": "RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval",
+      "source_url": "https://openreview.net/forum?id=8z3cOVER4z",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "query_family": "retrieval",
+      "abstract": "Transformer-based Large Language Models (LLMs) have become increasingly important. However, scaling LLMs to longer contexts incurs slow inference",
+      "metadata_source": "Curated venue record · ai-conferences"
+    },
+    {
+      "id": "acl-2026-fd84a154cb6ef98f",
+      "title": "Long Context Modeling with Ranked Memory-Augmented Retrieval",
+      "source_url": "https://aclanthology.org/2026.acl-long.162/",
+      "year": 2026,
+      "venue": "ACL",
+      "query_family": "retrieval",
+      "abstract": "Effective long-term memory management is crucial for language models handling extended contexts. We introduce the Enhanced Ranked Memory Augmented",
+      "metadata_source": "Curated venue record · ai-conferences"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "curdkv",
+  "title": "CurDKV: value-guided KV compression",
+  "current": {"id":"B","name":"CurDKV","fullTitle":"Value-Guided KV Compression for LLMs via Approximated CUR Decomposition","authors":"Ayan Sengupta, Siddhant Chaudhary, Tanmoy Chakraborty","venue":"NeurIPS 2025","url":"https://proceedings.neurips.cc/paper_files/paper/2025/hash/721b0b930cae88656b0f71a8f6097ee4-Abstract-Conference.html","claims":["Introduces value-aware CurDKV for KV compression.","Uses CUR leverage scores approximated with Gaussian random projections."],"evidence":"Abstract"},
+  "startingStrategy":{"name":"Attention-based KV eviction","summary":"Problem family from the CurDKV paper; not asserted as a single invented ancestor."},
+  "a": [
+    {"id":"snapkv","name":"SnapKV","role":"Attention head-specific selection","summary":"Selects prompt positions using attention patterns for each attention head.","url":"https://arxiv.org/abs/2404.14469","evidence":"Abstract"},
+    {"id":"chunkkv","name":"ChunkKV","role":"Semantic chunk retention","summary":"Retains semantic chunks as a KV compression strategy.","url":"https://proceedings.neurips.cc/paper_files/paper/2025/hash/2987f911151b39cd3a1761e212319e8e-Abstract-Conference.html","evidence":"Abstract"},
+    {"id":"h2o","name":"H2O","role":"Recent + heavy hitter selection","summary":"Uses recent tokens and heavy hitters in KV cache management.","url":"https://arxiv.org/abs/2306.14048","evidence":"Abstract"},
+    {"id":"streamingllm","name":"StreamingLLM","role":"Attention sinks + streaming window","summary":"Keeps attention sink tokens and a recent window. This is not directly interchangeable with compression scoring.","url":"https://arxiv.org/abs/2309.17453","evidence":"Abstract"}
+  ],
+  "m": [
+    {"id":"gaussian","name":"Gaussian random projection","role":"Documented in CurDKV","summary":"Random projection approximation used for CUR leverage scores in CurDKV.","url":"https://proceedings.neurips.cc/paper_files/paper/2025/hash/721b0b930cae88656b0f71a8f6097ee4-Abstract-Conference.html","evidence":"Abstract"},
+    {"id":"countsketch","name":"Sparse CountSketch","role":"Hypothesized substitution","summary":"Sparse randomized sketch family; a possible substitution to investigate, not a claim of improved efficiency.","url":"https://arxiv.org/abs/1411.4357","evidence":"Sketching survey"},
+    {"id":"srht","name":"Structured orthogonal / SRHT","role":"Hypothesized substitution","summary":"Structured orthogonal transform family; a possible substitution to investigate, not a claim of improved efficiency.","url":"https://arxiv.org/abs/1411.4357","evidence":"Sketching survey"},
+    {"id":"svd","name":"Leverage score SVD baseline","role":"Hypothesized substitution","summary":"SVD-based leverage score computation as a comparison baseline; not a claim of better efficiency.","url":"https://arxiv.org/abs/1411.4357","evidence":"Sketching survey"}
+  ],
+  "caveats":["Source-backed claims apply to the individual cited papers, not causal lineage unless the paper says so.","Every A × M combination in this explorer is an untested research-design candidate.","Compatibility is a structural heuristic gate, not evidence of validity or performance.","No claim is made about private cognition."]
+}
